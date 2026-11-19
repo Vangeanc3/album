@@ -97,7 +97,7 @@ window.DADOS_SITE = {
       {
         imagem: "fotos/foto-01.jpg",
         data: "Fevereiro",
-        titulo: "No aniversário do seu amigo no Balacubaco",
+        titulo: "No aniversário do seu amigo no Balacoolbar",
         legenda:
           "Eu lembro bem do quanto você estava linda e perfeita nesse dia.",
       },
