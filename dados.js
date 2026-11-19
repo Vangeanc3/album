@@ -64,11 +64,11 @@ window.DADOS_SITE = {
         data: "Fevereiro",
         titulo: "Os primeiros passeios juntos",
         descricao:
-          "Daquela saída com a Yasmim até o nosso dia no Parque do Utinga, já dava para sentir o quanto era leve estar perto de você.",
+          "Desde quando a gente se encontrou no Carnaval, depois saímos com a Yasmim e fomos ao Parque do Utinga — ali eu já senti o quanto era leve estar com você.",
       },
       {
         data: "Março • Praça da República",
-        titulo: "O dia da água de coco",
+        titulo: "Aquele dia na Praça da República",
         descricao:
           "A gente foi conversar, comer sushi e tomar uma água de coco na Praça da República — e foi ali que eu percebi que tinha me apaixonado por você.",
       },
@@ -76,13 +76,13 @@ window.DADOS_SITE = {
         data: "Junho",
         titulo: "Quando virou oficial",
         descricao:
-          "Entre a sua viagem pro RJ, os dias tranquilos na sua casa e aquela noite especial, assumir o nosso namoro foi uma das coisas mais bonitas que vivemos.",
+          "Entre a sua viagem pro Rio de Janeiro — quando eu fiquei com muita saudade e senti muito a sua falta — e o aniversário da Yasmim, em que decidimos assumir nosso namoro no Instagram. Foi um dia bem especial para mim, uma das coisas mais bonitas que já vivi, onde eu senti que estava num amor de verdade.",
       },
       {
         data: "Agosto e Setembro",
         titulo: "Até nos dias mais simples",
         descricao:
-          "Dos estudos juntos na Usina até o passeio no shopping com a sua avó, você sempre deixou qualquer rotina com um brilho diferente.",
+          "Dos estudos juntos na Usina até o passeio no shopping com a sua avó, você sempre deixou qualquer rotina com um brilho diferente — porque esse é o seu jeito.",
       },
     ],
     textoBotao: "Ver nossas fotos",
@@ -134,14 +134,14 @@ window.DADOS_SITE = {
         data: "Junho",
         titulo: "Na Copa do Mundo",
         legenda:
-          "De camisa do Brasil juntos. Uma foto muito bonita de nós dois na mesma sintonia.",
+          "A gente estava muito bonito nesse dia — principalmente você, linda demais, e nós dois na mesma sintonia.",
       },
       {
         imagem: "fotos/foto-14.jpg",
         data: "Junho",
         titulo: "Encostadinha no meu ombro",
         legenda:
-          "Eu adorava te ver assim — com esse sorriso tranquilo e encostada no meu ombro.",
+          "Eu adorava te ver assim — com esse sorriso tranquilo e encostada no meu ombro. Gostava demais desses momentos.",
       },
       {
         imagem: "fotos/foto-08.jpg",
@@ -162,7 +162,7 @@ window.DADOS_SITE = {
         data: "Agosto",
         titulo: "Estudando na Usina",
         legenda:
-          "Logo quando você voltou do RJ e a gente foi estudar juntos na Usina. Até dia de estudo ficava bom com você.",
+          "Logo quando você voltou do RJ e a gente foi estudar juntos na Usina. Esse dia foi muito especial para mim — eu gostei muito de ficar contigo lá, até dia de estudo ficava bom com você.",
       },
       {
         imagem: "fotos/foto-12.jpg",
