@@ -89,33 +89,6 @@
     passive: true,
   });
 
-  async function copiarTexto(texto) {
-    if (navigator.clipboard && window.isSecureContext) {
-      try {
-        await navigator.clipboard.writeText(texto);
-        return true;
-      } catch (_) {
-        // Fallback abaixo
-      }
-    }
-
-    const area = document.createElement("textarea");
-    area.value = texto;
-    area.setAttribute("readonly", "");
-    area.style.position = "fixed";
-    area.style.opacity = "0";
-    document.body.appendChild(area);
-    area.select();
-    let ok = false;
-    try {
-      ok = document.execCommand("copy");
-    } catch (_) {
-      ok = false;
-    }
-    document.body.removeChild(area);
-    return ok;
-  }
-
   /* ========================================================================
      TEMA E METADADOS
      ======================================================================== */
@@ -275,7 +248,7 @@
     setText("carta-titulo", dados.carta.titulo);
     setText("carta-despedida", dados.carta.despedida);
     setText("carta-autor", dados.geral?.seuNome || "");
-    setText("carta-btn-texto", dados.carta.textoBotao || "Ir para o final");
+    setText("rodape-texto", dados.rodape?.texto || "");
 
     const container = document.getElementById("carta-paragrafos");
     if (!container) return;
@@ -286,122 +259,6 @@
       p.textContent = interpolar(texto);
       container.appendChild(p);
     });
-  }
-
-  function renderConvite() {
-    setText("convite-etiqueta", dados.convite.etiqueta);
-    setText("convite-titulo", dados.convite.titulo);
-    setText("convite-mensagem", dados.convite.mensagem);
-    setText("rodape-texto", dados.rodape?.texto || "");
-
-    const container = document.getElementById("convite-opcoes");
-    const responseBox = document.getElementById("convite-resposta");
-    const responseText = document.getElementById("response-text");
-    const responseActions = document.getElementById("response-actions");
-    const resetBtn = document.getElementById("response-reset");
-
-    if (!container || !responseBox) return;
-    container.innerHTML = "";
-
-    function selecionarOpcao(opcao, btnEl) {
-      container.classList.add("has-selection");
-      container.querySelectorAll(".invite-option").forEach((el) => {
-        el.classList.remove("is-selected");
-        el.setAttribute("aria-checked", "false");
-      });
-
-      btnEl.classList.add("is-selected");
-      btnEl.setAttribute("aria-checked", "true");
-
-      responseText.textContent = interpolar(opcao.respostaNaTela);
-      responseActions.innerHTML = "";
-
-      const msgTexto = interpolar(opcao.mensagemWhatsapp || opcao.titulo);
-      const numero = (dados.convite.whatsappNumero || "").replace(/\D/g, "");
-
-      if (numero) {
-        const waLink = document.createElement("a");
-        waLink.className = "btn-action-primary";
-        waLink.href = `https://wa.me/${numero}?text=${encodeURIComponent(
-          msgTexto
-        )}`;
-        waLink.target = "_blank";
-        waLink.rel = "noopener noreferrer";
-        waLink.textContent = "Responder pelo WhatsApp";
-        responseActions.appendChild(waLink);
-      }
-
-      const copyBtn = document.createElement("button");
-      copyBtn.type = "button";
-      copyBtn.className = numero ? "btn-action-secondary" : "btn-action-primary";
-      copyBtn.textContent = numero
-        ? "Copiar mensagem"
-        : "Copiar resposta para enviar";
-
-      copyBtn.addEventListener("click", async () => {
-        const ok = await copiarTexto(msgTexto);
-        const originalLabel = copyBtn.textContent;
-        copyBtn.textContent = ok
-          ? "Mensagem copiada ✓"
-          : "Não foi possível copiar";
-        setTimeout(() => {
-          copyBtn.textContent = originalLabel;
-        }, 2600);
-      });
-
-      responseActions.appendChild(copyBtn);
-      responseBox.classList.remove("is-hidden");
-
-      setTimeout(() => {
-        responseBox.scrollIntoView({
-          behavior: prefersReducedMotion ? "auto" : "smooth",
-          block: "nearest",
-        });
-      }, 90);
-    }
-
-    (dados.convite.opcoes || []).forEach((opcao) => {
-      const btn = document.createElement("button");
-      btn.type = "button";
-      btn.className = "invite-option";
-      btn.setAttribute("role", "radio");
-      btn.setAttribute("aria-checked", "false");
-
-      const emoji = document.createElement("span");
-      emoji.className = "option-emoji";
-      emoji.textContent = opcao.emoji || "•";
-      emoji.setAttribute("aria-hidden", "true");
-
-      const copyWrap = document.createElement("span");
-      copyWrap.className = "option-copy";
-
-      const title = document.createElement("span");
-      title.className = "option-title";
-      title.textContent = interpolar(opcao.titulo);
-      copyWrap.appendChild(title);
-
-      if (opcao.subtitulo) {
-        const sub = document.createElement("span");
-        sub.className = "option-sub";
-        sub.textContent = interpolar(opcao.subtitulo);
-        copyWrap.appendChild(sub);
-      }
-
-      btn.append(emoji, copyWrap);
-      btn.addEventListener("click", () => selecionarOpcao(opcao, btn));
-      container.appendChild(btn);
-    });
-
-    if (resetBtn) {
-      resetBtn.addEventListener("click", () => {
-        container.classList.remove("has-selection");
-        container.querySelectorAll(".invite-option").forEach((el) => {
-          el.classList.remove("is-selected");
-          el.setAttribute("aria-checked", "false");
-        });
-        responseBox.classList.add("is-hidden");
-      });
-    }
   }
 
   /* ========================================================================
@@ -738,7 +595,6 @@
   renderTimeline();
   renderGaleria();
   renderCarta();
-  renderConvite();
   setupMusica();
   setupNavegacaoERevelacao();
   setupLightbox();

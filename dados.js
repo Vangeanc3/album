@@ -197,55 +197,9 @@ window.DADOS_SITE = {
       "Esse tempo afastado me fez olhar para nós dois com muito mais calma. Consegui enxergar coisas em mim que eu precisava amadurecer, e também percebi com ainda mais clareza o quanto o que a gente viveu foi real e bonito.",
       "Sinto falta das coisas simples com você — de te contar uma besteira do meu dia, de rir junto de algo bobo, da paz que era estar do seu lado sem precisar fingir nada.",
       "Não fiz esta página para apagar o passado nem para te apressar a decidir qualquer coisa. Eu respeito de verdade o seu tempo, o seu momento e tudo o que você sentir.",
-      "Só queria ser honesto com você: se algum dia, sem peso nenhum, fizer sentido dar uma volta juntos ou começar uma conversa leve do zero, eu gostaria muito.",
+      "Só queria ser honesto com você: se algum dia, sem peso nenhum, você topar sair comigo — ir na Estação das Docas, dar uma volta ou só começar uma conversa leve do zero — eu gostaria muito.",
     ],
     despedida: "Com carinho e respeito,",
-    textoBotao: "Ir para o final",
-  },
-
-  convite: {
-    etiqueta: "04 • Sem pressão",
-    titulo: "Chegamos até aqui",
-    mensagem:
-      "Obrigado por ter separado esses minutinhos para ler. De verdade, não existe resposta certa — só queria saber como você se sente e se toparia sair comigo qualquer dia, tipo ir na Estação das Docas ou só dar uma volta juntos.",
-
-    // Opcional: coloque seu número com DDI + DDD (somente números), ex: "5511999999999"
-    // Se deixar vazio "", o site mostra o botão para copiar a resposta com 1 toque.
-    whatsappNumero: "",
-
-    opcoes: [
-      {
-        id: "sair",
-        emoji: "🌅",
-        titulo: "Toparia sair com você qualquer dia",
-        subtitulo:
-          "Ir na Estação das Docas, conversar leve e aproveitar sem pressa.",
-        respostaNaTela:
-          "Fico muito feliz em saber disso. Quando você quiser e no seu melhor dia, a gente combina de sair — seja pra Estação das Docas ou pra outro lugar que você gostar. Prometo ir leve e sem pressa.",
-        mensagemWhatsapp:
-          "Oi! Vi o site que você fez e achei muito bonito. Toparia sair com você qualquer dia desses (quem sabe na Estação das Docas!) :)",
-      },
-      {
-        id: "tempo",
-        emoji: "🌙",
-        titulo: "Gostei de ler, mas ainda preciso do meu tempo",
-        subtitulo: "Quero continuar no meu momento agora.",
-        respostaNaTela:
-          "Obrigado por ser sincera comigo. Eu entendo e respeito muito o seu momento. Fica bem, de verdade.",
-        mensagemWhatsapp:
-          "Oi! Vi o site que você fez, achei muito sincero e bonito. No momento ainda preciso ficar no meu tempo, mas queria te agradecer pelo carinho.",
-      },
-      {
-        id: "depois",
-        emoji: "💭",
-        titulo: "Vou pensar com calma e te respondo depois",
-        subtitulo: "Prefiro digerir tudo sem pressa.",
-        respostaNaTela:
-          "Claro! Não tem prazo nenhum mesmo. Vive os seus dias tranquila, e se um dia sentir vontade de falar comigo, você sabe onde me encontrar.",
-        mensagemWhatsapp:
-          "Oi! Vi o site que você fez. Vou pensar com carinho e calma e depois a gente se fala :)",
-      },
-    ],
   },
 
   rodape: {

@@ -51,19 +51,7 @@ No bloco `musica` em `dados.js`:
 
 ---
 
-## 4. Receber a resposta dela direto no WhatsApp (opcional)
-
-Em `convite.whatsappNumero`, coloque seu número com DDI e DDD (só números), por exemplo:
-
-```js
-whatsappNumero: "5511999999999",
-```
-
-Assim, quando ela escolher uma das opções no final, aparece o botão **"Responder pelo WhatsApp"** já com a mensagem pronta para ela enviar (ou editar se quiser). Se deixar vazio (`""`), aparece o botão para ela copiar a resposta com um toque.
-
----
-
-## 5. Como testar no seu celular antes de mandar
+## 4. Como testar no seu celular antes de mandar
 
 No Mac, abra o Terminal dentro da pasta do projeto e rode:
 
@@ -76,7 +64,7 @@ python3 -m http.server 8000
 
 ---
 
-## 6. Como colocar no ar de graça mês que vem
+## 5. Como colocar no ar de graça mês que vem
 
 O jeito mais simples (sem precisar instalar nada):
 

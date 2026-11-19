@@ -845,8 +845,12 @@ img {
 }
 
 /* ==========================================================================
-   CAPÍTULO 3: CARTA SINCERA
+   CAPÍTULO 3: CARTA SINCERA (FINAL)
    ========================================================================== */
+
+.capitulo-carta {
+  padding-bottom: calc(56px + env(safe-area-inset-bottom));
+}
 
 .letter-card {
   position: relative;
@@ -909,167 +913,6 @@ img {
   font-size: 1.8rem;
   font-weight: 500;
   color: var(--accent);
-}
-
-/* ==========================================================================
-   CAPÍTULO 4: CONVITE LEVE E RESPOSTA
-   ========================================================================== */
-
-.capitulo-convite {
-  min-height: 92svh;
-  min-height: 92dvh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-bottom: calc(56px + env(safe-area-inset-bottom));
-}
-
-.invite-options {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-.invite-option {
-  width: 100%;
-  text-align: left;
-  padding: 18px 18px;
-  border-radius: 18px;
-  border: 1px solid var(--border);
-  background: var(--bg-elevated);
-  display: flex;
-  align-items: flex-start;
-  gap: 14px;
-  transition: transform 0.18s ease, border-color 0.25s ease,
-    background-color 0.25s ease, opacity 0.25s ease;
-}
-
-.invite-option:hover {
-  background: var(--bg-elevated-hover);
-  border-color: var(--border-strong);
-}
-
-.invite-option:active {
-  transform: scale(0.985);
-}
-
-.invite-option.is-selected {
-  background: var(--accent-soft);
-  border-color: var(--accent);
-}
-
-.invite-options.has-selection .invite-option:not(.is-selected) {
-  opacity: 0.55;
-}
-
-.option-emoji {
-  font-size: 1.35rem;
-  line-height: 1.2;
-  flex-shrink: 0;
-  margin-top: 1px;
-}
-
-.option-copy {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-}
-
-.option-title {
-  font-size: 0.98rem;
-  font-weight: 600;
-  color: var(--text);
-  line-height: 1.35;
-}
-
-.option-sub {
-  font-size: 0.84rem;
-  color: var(--text-muted);
-  line-height: 1.45;
-}
-
-.invite-response {
-  margin-top: 20px;
-  animation: fadeSlideUp 0.45s cubic-bezier(0.22, 1, 0.36, 1);
-}
-
-@keyframes fadeSlideUp {
-  from {
-    opacity: 0;
-    transform: translateY(12px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.response-card {
-  padding: 24px 20px;
-  border-radius: 20px;
-  background: var(--bg-card-solid);
-  border: 1px solid var(--border-strong);
-  box-shadow: var(--shadow-card);
-}
-
-.response-text {
-  margin: 0 0 20px;
-  font-family: "Cormorant Garamond", Georgia, serif;
-  font-size: 1.4rem;
-  line-height: 1.42;
-  color: var(--text);
-}
-
-.response-actions {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.btn-action-primary,
-.btn-action-secondary {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  width: 100%;
-  min-height: 48px;
-  padding: 12px 20px;
-  border-radius: 999px;
-  font-size: 0.92rem;
-  font-weight: 600;
-  text-decoration: none;
-  transition: transform 0.18s ease, filter 0.2s ease,
-    background-color 0.2s ease;
-}
-
-.btn-action-primary {
-  background: var(--accent);
-  color: var(--accent-text);
-  border: 1px solid var(--accent);
-}
-
-.btn-action-secondary {
-  background: var(--bg-elevated);
-  color: var(--text);
-  border: 1px solid var(--border);
-}
-
-.btn-action-primary:active,
-.btn-action-secondary:active {
-  transform: scale(0.98);
-}
-
-.response-reset {
-  display: block;
-  margin: 14px auto 0;
-  padding: 6px 12px;
-  background: none;
-  border: none;
-  font-size: 0.8rem;
-  color: var(--text-soft);
-  text-decoration: underline;
-  text-underline-offset: 3px;
 }
 
 /* Rodapé */
