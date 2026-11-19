@@ -198,6 +198,7 @@ window.DADOS_SITE = {
       "Sinto falta das coisas simples com você — de te contar uma besteira do meu dia, de rir junto de algo bobo, da paz que era estar do seu lado sem precisar fingir nada.",
       "Não fiz esta página para apagar o passado nem para te apressar a decidir qualquer coisa. Eu respeito de verdade o seu tempo, o seu momento e tudo o que você sentir.",
       "Só queria ser honesto com você: se algum dia, sem peso nenhum, você topar sair comigo — ir na Estação das Docas, dar uma volta ou só começar uma conversa leve do zero — eu gostaria muito.",
+      "Não precisa me dizer agora. No seu tempo, ok?",
     ],
     despedida: "Com carinho e respeito,",
   },
