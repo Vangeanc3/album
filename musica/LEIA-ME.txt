@@ -1,0 +1,2 @@
+Coloque aqui o arquivo .mp3 da música (ex: lofi.mp3) se quiser adicionar trilha sonora depois,
+e mude "ativada: true" na seção musica do arquivo dados.js.
