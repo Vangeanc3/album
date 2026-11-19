@@ -97,7 +97,7 @@ window.DADOS_SITE = {
       {
         imagem: "fotos/foto-01.jpg",
         data: "Fevereiro",
-        titulo: "Aquele dia que saímos com a Yasmim",
+        titulo: "No aniversário do seu amigo no Balacubaco",
         legenda:
           "Eu lembro bem do quanto você estava linda e perfeita nesse dia.",
       },
