@@ -185,6 +185,20 @@ window.DADOS_SITE = {
         legenda:
           "Esse seu jeito espontâneo que sempre me arrancou um sorriso fácil.",
       },
+      {
+        imagem: "fotos/foto-16.jpg",
+        data: "Na Usina",
+        titulo: "Toda feliz com a eleição kkkkk",
+        legenda:
+          "Quando a gente foi na Usina e você estava toda feliz com a eleição do Lula — essa foto sua está muito engraçada e eu adoro.",
+      },
+      {
+        imagem: "fotos/foto-17.jpg",
+        data: "Último registro",
+        titulo: "A nossa última foto juntos",
+        legenda:
+          "Alguns dias antes de a gente se separar — bem no nosso jeitinho leve e sem filtro nenhum.",
+      },
     ],
     textoBotao: "Ler o que escrevi",
   },
