@@ -28,7 +28,7 @@ window.DADOS_SITE = {
     etiqueta: "feito com amor",
     titulo: "Oi, {nomeDela}.",
     subtitulo:
-      "Só um espaço para guardar com carinho o que a gente construiu até aqui. Não precisa responder nada nem ter pressa, fiz apenas porque você merece coisas bonitas no teu tempo.",
+      "Só um espaço para guardar com carinho o que a gente construiu até aqui. Fiz isso sem esperar resposta e sem querer pressionar o seu tempo: é só uma lembrança boa que quis deixar guardada com você, sem peso nenhum. Não precisa responder nada nem ter pressa. Fiz apenas porque você merece coisas bonitas, no teu tempo.",
     textoBotao: "Começar",
     // Foto de fundo da capa (ex: "fotos/foto-01.jpg", "fotos/foto-07.jpg" ou "" para deixar sem foto)
     imagemFundo: "fotos/foto-01.jpg",
