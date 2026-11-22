@@ -1,6 +1,6 @@
 /**
  * ============================================================================
- *  CONFIGURAÇÃO DO SITE — EDITE AQUI PARA PERSONALIZAR TUDO
+ *  CONFIGURAÇÃO DO SITE (EDITE AQUI PARA PERSONALIZAR TUDO)
  * ============================================================================
  *  Você só precisa alterar os textos, nomes e caminhos das fotos neste arquivo.
  *  Dica: mantenha as aspas ("...") e as vírgulas no final de cada linha.
@@ -21,14 +21,14 @@ window.DADOS_SITE = {
     tema: "noite",
 
     // Título que aparece na aba do navegador e no preview do link
-    tituloAba: "Para você — quando tiver um minutinho",
+    tituloAba: "Para você, quando tiver um minutinho",
   },
 
   capa: {
     etiqueta: "feito com amor",
     titulo: "Oi, {nomeDela}.",
     subtitulo:
-      "Só um espaço para guardar com carinho o que a gente construiu até aqui. Fiz isso sem esperar resposta e sem querer pressionar o seu tempo: é só uma lembrança boa que quis deixar guardada com você, sem peso nenhum. Não precisa responder nada nem ter pressa. Fiz apenas porque você merece coisas bonitas, no teu tempo.",
+      "Só um espaço para guardar com carinho o que a gente construiu até aqui. Fiz isso sem esperar resposta e sem querer pressionar o seu tempo. É só uma lembrança boa que quis deixar guardada com você, sem peso nenhum. Não precisa responder nada nem ter pressa, fiz apenas porque você merece coisas bonitas, no teu tempo.",
     textoBotao: "Começar",
     // Foto de fundo da capa (ex: "fotos/foto-01.jpg", "fotos/foto-07.jpg" ou "" para deixar sem foto)
     imagemFundo: "fotos/foto-01.jpg",
@@ -56,33 +56,33 @@ window.DADOS_SITE = {
 
   linhaDoTempo: {
     etiqueta: "01 • Memórias",
-    titulo: "Pequenas coisas que ainda moram aqui",
+    titulo: "Como tudo foi acontecendo",
     intro:
-      "Mesmo com o tempo passando, tem momentos nossos que continuam aparecendo do nada e me fazendo sorrir.",
+      "Antes de ver as fotos, quis lembrar um pouco de como foi cada fase da gente.",
     itens: [
       {
         data: "Fevereiro",
-        titulo: "Os primeiros passeios juntos",
+        titulo: "Quando a gente começou a se aproximar",
         descricao:
-          "Desde quando a gente se encontrou no Carnaval, depois saímos com a Yasmim e fomos ao Parque do Utinga — ali eu já senti o quanto era leve estar com você.",
+          "Tudo começou ali no Carnaval. Nos primeiros rolês que a gente deu juntos, eu já percebi de cara o quanto era fácil conversar contigo. Não tinha peso nem esforço, era só muito bom e leve estar por perto.",
       },
       {
-        data: "Março • Praça da República",
-        titulo: "Aquele dia na Praça da República",
+        data: "Março",
+        titulo: "O dia em que caiu a ficha",
         descricao:
-          "A gente foi conversar, comer sushi e tomar uma água de coco na Praça da República — e foi ali que eu percebi que tinha me apaixonado por você.",
+          "Foi num dia tranquilo, sem nada muito planejado, só a gente conversando sem ver a hora passar. Ali no meio do papo eu olhei para você e percebi que já não era mais só interesse. Eu tinha me apaixonado de verdade.",
       },
       {
         data: "Junho",
-        titulo: "Quando virou oficial",
+        titulo: "A saudade e a certeza",
         descricao:
-          "Entre a sua viagem pro Rio de Janeiro — quando eu fiquei com muita saudade e senti muito a sua falta — e o aniversário da Yasmim, em que decidimos assumir nosso namoro no Instagram. Foi um dia bem especial para mim, uma das coisas mais bonitas que já vivi, onde eu senti que estava num amor de verdade.",
+          "Quando você foi pro Rio, eu senti muito a sua falta e a saudade bateu forte. Foi nessa fase também que a gente decidiu assumir o namoro e postar no Instagram. Fiquei feliz demais nesse dia, foi uma das coisas mais bonitas que já vivi e eu senti que estava num amor de verdade.",
       },
       {
         data: "Agosto e Setembro",
-        titulo: "Até nos dias mais simples",
+        titulo: "A leveza da nossa rotina",
         descricao:
-          "Dos estudos juntos na Usina até o passeio no shopping com a sua avó, você sempre deixou qualquer rotina com um brilho diferente — porque esse é o seu jeito.",
+          "Depois que você voltou, o que eu mais gostava nem eram só as saídas diferentes, mas os dias normais contigo. Fosse para estudar, sair com a sua família ou não fazer nada demais, estar do seu lado deixava qualquer dia comum muito melhor.",
       },
     ],
     textoBotao: "Ver nossas fotos",
@@ -106,7 +106,7 @@ window.DADOS_SITE = {
         data: "Fevereiro",
         titulo: "Parque do Utinga",
         legenda:
-          "Nós dois juntos no Parque do Utinga. Foi muito legal e leve — eu adorei passar esse dia com você.",
+          "Nós dois juntos no Parque do Utinga. Foi muito legal e leve, adorei passar esse dia com você.",
       },
       {
         imagem: "fotos/foto-03.jpg",
@@ -120,7 +120,7 @@ window.DADOS_SITE = {
         data: "Junho",
         titulo: "Antes de você viajar pro RJ",
         legenda:
-          "Pouco antes da sua viagem pro Rio. Eu guardo essa lembrança com muito carinho — adorava te ver assim, feliz.",
+          "Pouco antes da sua viagem pro Rio. Eu guardo essa lembrança com muito carinho, adorava te ver assim, feliz.",
       },
       {
         imagem: "fotos/foto-05.jpg",
@@ -134,21 +134,21 @@ window.DADOS_SITE = {
         data: "Junho",
         titulo: "Na Copa do Mundo",
         legenda:
-          "A gente estava muito bonito nesse dia — principalmente você, linda demais, e nós dois na mesma sintonia.",
+          "A gente estava muito bonito nesse dia, principalmente você, linda demais, e nós dois na mesma sintonia.",
       },
       {
         imagem: "fotos/foto-14.jpg",
         data: "Junho",
         titulo: "Encostadinha no meu ombro",
         legenda:
-          "Eu adorava te ver assim — com esse sorriso tranquilo e encostada no meu ombro. Gostava demais desses momentos.",
+          "Eu adorava te ver assim, com esse sorriso tranquilo e encostada no meu ombro. Gostava demais desses momentos.",
       },
       {
         imagem: "fotos/foto-08.jpg",
         data: "Junho",
         titulo: "Quando assumimos o namoro",
         legenda:
-          "O dia em que a gente assumiu nosso namoro. Essa noite nunca vou esquecer — você estava simplesmente perfeita.",
+          "O dia em que a gente assumiu nosso namoro. Essa noite eu nunca vou esquecer, você estava simplesmente perfeita.",
       },
       {
         imagem: "fotos/foto-13.jpg",
@@ -162,7 +162,7 @@ window.DADOS_SITE = {
         data: "Agosto",
         titulo: "Estudando na Usina",
         legenda:
-          "Logo quando você voltou do RJ e a gente foi estudar juntos na Usina. Esse dia foi muito especial para mim — eu gostei muito de ficar contigo lá, até dia de estudo ficava bom com você.",
+          "Logo quando você voltou do RJ e a gente foi estudar juntos na Usina. Esse dia foi muito especial para mim, gostei muito de ficar contigo lá. Até dia de estudo ficava bom com você.",
       },
       {
         imagem: "fotos/foto-12.jpg",
@@ -176,7 +176,7 @@ window.DADOS_SITE = {
         data: "Agosto",
         titulo: "A foto com seu sobrinho kkkkk",
         legenda:
-          "Gostei muito desse dia. Esse passeio no shopping foi completo e cheio de sorrisos — deu para guardar no coração.",
+          "Gostei muito desse dia. Esse passeio no shopping foi completo e cheio de sorrisos, deu para guardar no coração.",
       },
       {
         imagem: "fotos/foto-10.jpg",
@@ -190,14 +190,14 @@ window.DADOS_SITE = {
         data: "Na Usina",
         titulo: "Toda feliz com a eleição kkkkk",
         legenda:
-          "Quando a gente foi na Usina e você estava toda feliz com a eleição do Lula — essa foto sua está muito engraçada e eu adoro.",
+          "Quando a gente foi na Usina e você estava toda feliz com a eleição do Lula. Essa foto sua está muito engraçada e eu adoro.",
       },
       {
         imagem: "fotos/foto-17.jpg",
         data: "Último registro",
         titulo: "A nossa última foto juntos",
         legenda:
-          "Alguns dias antes de a gente se separar — bem no nosso jeitinho leve e sem filtro nenhum.",
+          "Alguns dias antes de a gente se separar, bem no nosso jeitinho leve e sem filtro nenhum.",
       },
     ],
     textoBotao: "Ler o que escrevi",
@@ -209,9 +209,9 @@ window.DADOS_SITE = {
     paragrafos: [
       "Eu pensei bastante antes de te mandar isso, porque a última coisa que eu quero é invadir o seu espaço ou parecer que estou cobrando alguma coisa de você.",
       "Esse tempo afastado me fez olhar para nós dois com muito mais calma. Consegui enxergar coisas em mim que eu precisava amadurecer, e também percebi com ainda mais clareza o quanto o que a gente viveu foi real e bonito.",
-      "Sinto falta das coisas simples com você — de te contar uma besteira do meu dia, de rir junto de algo bobo, da paz que era estar do seu lado sem precisar fingir nada.",
-      "Não fiz esta página para apagar o passado nem para te apressar a decidir qualquer coisa. Eu respeito de verdade o seu tempo, o seu momento e tudo o que você sentir.",
-      "Quis apenas deixar guardado aqui, de um jeito bonito, o quanto você e tudo o que vivemos ainda importam para mim. Desejo de coração que você esteja bem e sorrindo leve — e, se algum dia der vontade de conversar de novo e escrever novos momentos juntos, eu vou estar aqui.",
+      "Sinto falta das coisas simples com você, de te contar uma besteira do meu dia, de rir junto de algo bobo e da paz que era estar do seu lado sem precisar fingir nada.",
+      "Não fiz essa página para apagar o passado nem para te apressar a decidir qualquer coisa. Eu respeito de verdade o seu tempo, o seu momento e tudo o que você sentir.",
+      "Quis apenas deixar guardado aqui, de um jeito bonito, o quanto você e tudo o que vivemos ainda importam para mim. Desejo de coração que você esteja bem e sorrindo leve. E se algum dia der vontade de conversar de novo e viver novos momentos juntos, eu vou estar aqui.",
     ],
     despedida: "Com carinho e respeito,",
   },
