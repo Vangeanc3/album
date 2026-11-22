@@ -99,7 +99,7 @@ window.DADOS_SITE = {
         data: "Fevereiro",
         titulo: "No aniversário do seu amigo no Balacoolbar",
         legenda:
-          "Eu lembro bem do quanto você estava linda e perfeita nesse dia.",
+          "Eu lembro bem do quanto você estava linda e estilosa nesse dia. Sinceramente, acho que foi uma das vezes em que te vi mais bonita.",
       },
       {
         imagem: "fotos/foto-02.jpg",
@@ -120,21 +120,21 @@ window.DADOS_SITE = {
         data: "Junho",
         titulo: "Antes de você viajar pro RJ",
         legenda:
-          "Pouco antes da sua viagem pro Rio. Eu guardo essa lembrança com muito carinho, adorava te ver assim, feliz.",
+          "Pouco antes da sua viagem pro Rio. Eu guardo essa lembrança com muito carinho, adorava te ver assim feliz, principalmente quando eu ficava beijando a sua testa, o seu rosto e o seu nariz.",
       },
       {
         imagem: "fotos/foto-05.jpg",
         data: "Junho",
         titulo: "Descansando na sua casa",
         legenda:
-          "A gente dormindo juntos na sua casa. Até nos momentos mais calmos, estar do seu lado já bastava.",
+          "A gente dormindo juntos na sua casa. Até nos momentos mais calmos, estar do seu lado já bastava. E eu adorava esse teu travesseiro e o teu ursinho também.",
       },
       {
         imagem: "fotos/foto-06.jpg",
         data: "Junho",
         titulo: "Na Copa do Mundo",
         legenda:
-          "A gente estava muito bonito nesse dia, principalmente você, linda demais, e nós dois na mesma sintonia.",
+          "Nós dois estávamos muito lindos nesse dia, principalmente você. Gosto demais dessa foto nossa.",
       },
       {
         imagem: "fotos/foto-14.jpg",
@@ -148,14 +148,14 @@ window.DADOS_SITE = {
         data: "Junho",
         titulo: "Quando assumimos o namoro",
         legenda:
-          "O dia em que a gente assumiu nosso namoro. Essa noite eu nunca vou esquecer, você estava simplesmente perfeita.",
+          "O dia em que a gente assumiu nosso namoro. Essa noite eu nunca vou esquecer, você ficou perfeita nesse vestido, muito linda mesmo.",
       },
       {
         imagem: "fotos/foto-13.jpg",
         data: "Junho",
         titulo: "Comemorando o aniversário da Yasmim",
         legenda:
-          "Depois a gente foi pro aniversário da Yasmim curtir um pouquinho.",
+          "Depois a gente foi pro aniversário da Yasmim na Pulse curtir um pouquinho.",
       },
       {
         imagem: "fotos/foto-09.jpg",
